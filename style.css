@@ -1,0 +1,27 @@
+body {
+    background: #fefefe
+}
+
+.mainHeader {
+    color: #1460AA
+}
+
+.sectionHeader {
+    color: #6c1285
+}
+
+#pamietniczek {
+    background: hotpink
+}
+
+h1 {
+    color: tomato
+}
+
+h2 {
+    color: #1460AA
+}
+
+p {
+    color: darkblue
+}
