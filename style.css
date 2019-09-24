@@ -7,15 +7,11 @@ body {
 }
 
 .sectionHeader {
-    color: #6c1285
-}
-
-#pamietniczek {
-    background: hotpink
+    color: #0B355D
 }
 
 h1 {
-    color: tomato
+    color: #296EB1
 }
 
 h2 {
@@ -23,5 +19,9 @@ h2 {
 }
 
 p {
-    color: blue
+    color: #3C7BB8
+}
+
+.link {
+    color: #57A773
 }
