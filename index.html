@@ -11,42 +11,44 @@
 
 <body>
 
-	<header>
-		<a class="link" href="index.html">Strona Głowna</a>
-		<a class="link" href="podstrona.html">Podstrona</a>
+	<header class="navigation">
+		<a class="navigation__link" href="index.html">Strona Głowna</a>
+		<a class="navigation__link" href="podstrona.html">Podstrona</a>
 	</header>
 
-	<main>
-		<h1 class="mainHeader">Robert Matyszewski - strona domowa</h1>
+	<main class = "main">
+		<h1 class="about__header">Robert Matyszewski - strona domowa</h1>
 
-		<section>
-			<h2 class="sectionHeader">Kim jestem?</h2>
-			<p> Nazywam się Robert. Mieszkam w <i>Błymstoku.</i> Lubię podrozowac. Pracuję jako marketingowiec w IT.
+		<section class="about">
+			<h2 class="about__header">Kim jestem?</h2>
+			<p class="about__paragraph"> Nazywam się Robert. Mieszkam w <i>Białymstoku.</i> Lubię podrozowac. Pracuję jako marketingowiec w IT.
 			</p>
-			<img src="image.png" width=150 alt="zdjęcie autora"> <br>
-			<a class="link"  href="#pamietniczek">Przejdz do Pamiętniczka</a>
+			<img src="image.png" class="about__picture"> <br>
+			<a class="about__link"  href="#pamietniczek">Przejdz do Pamiętniczka</a>
 		</section>
 
 		<section id="pamietniczek">
-			<h2>Pamiętniczek kursu Maćka</h2>
-			<h3>Jak stworzyć HTML</h3>
-			<p> Dzisiaj <b>rozwiązuję</b> zadanie domowe z drugiego tygodnia kursu WTF co ten frontend. Zadanie jest
+			<h2 class="diaryHeader">Pamiętniczek kursu Maćka</h2>
+			<h3 class="thirdHeader">Jak stworzyć HTML</h3>
+			<p class="paragraph"> Dzisiaj <b>rozwiązuję</b> zadanie domowe z drugiego tygodnia kursu WTF co ten frontend. Zadanie jest
 				rozszerzeniem
 				zadania z pierwszego tygodnia. Mam napisać prosty kod html i stworzyć z tego mini stronę. Dodatkowo mam
-				pozmieni <a class="link" href="podstrona.html">Przejdz dalej</a></p>
+				pozmieni <a class="navigation__link" href="podstrona.html">Przejdz dalej</a></p>
 		</section>
 		<section>
-			<h3>Jak stoworzyć plik CSS</h3>
-			<p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, excepturi! Id fugit possimus ea architecto iste explicabo dolorum. Recusandae numquam fugiat maiores nemo modi suscipit asperiores eligendi! Accusantium, tenetur facilis.</p>
+			<h3 class="thirdHeader">Jak stoworzyć plik CSS</h3>
+			<p class="paragraph"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, excepturi! Id fugit possimus ea architecto iste explicabo dolorum. Recusandae numquam fugiat maiores nemo modi suscipit asperiores eligendi! Accusantium, tenetur facilis.</p>
 		</section>
 		<section>
-			<h3>Jak stoworzyć plik javascript</h3>
-			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore qui facere, veritatis voluptatibus dolor amet corporis, accusamus, odit architecto consequatur alias culpa? Itaque, veritatis? Veniam iusto cupiditate quo facilis nisi.</p>
+			<h3 class="thirdHeader">Jak stoworzyć plik javascript</h3>
+			<p class="paragraph"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore qui facere, veritatis voluptatibus dolor amet corporis, accusamus, odit architecto consequatur alias culpa? Itaque, veritatis? Veniam iusto cupiditate quo facilis nisi.</p>
 		</section>
 		<section>
-			<h3>Mój pierwszy wpis</h3>
-			<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae possimus est aspernatur laborum id ex ea atque? Impedit tempora alias, omnis, nesciunt eum tempore debitis quia necessitatibus voluptatem rem voluptatum!</p>
+			<h3 class="thirdHeader">Mój pierwszy wpis</h3>
+			<p class="paragraph"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae possimus est aspernatur laborum id ex ea atque? Impedit tempora alias, omnis, nesciunt eum tempore debitis quia necessitatibus voluptatem rem voluptatum!</p>
 		</section>
+
+		<div class="box">Test</div>
 
 	</main>
 	<footer>

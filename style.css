@@ -1,27 +1,77 @@
 body {
-    background: #b9b7b7
+    background: #fefefe
+}
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+    position: relative;
+    background: #fefefe
 }
 
-.mainHeader {
-    color: #1460AA
+.navigation {
+	position: fixed;
+	width: 100%;
+	top:0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 16px;
+	background: #fff;
 }
 
-.sectionHeader {
-    color: #0B355D
+.navigation__link {
+	color: #1A936F;
 }
 
-h1 {
-    color: #296EB1
+.about {	
 }
 
-h2 {
-    color: #1460AA
+.about__picture {
+	width: 100%;
+	max-width: 100px;
+	display: block;
+	float: left;
+	margin: 0 16px 16px 0;
 }
 
-p {
-    color: #3C7BB8
+.about__header {
+	color: #1460aa;
 }
 
-.link {
-    color: #57A773
+.about__link {
+	color: #1A936F;
 }
+
+.about__paragraph {
+	padding: 16px;
+	font-size: 20px;
+}
+
+.diaryHeader {
+    color: #1460aa;
+    padding: 10px;
+}
+
+.thirdHeader {
+    color: #0496FF;
+
+}
+
+.paragraph {
+    padding-left: 10px;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 10px solid blue;
+	position: sticky;
+	top: 0;
+}
+
+
+
+
